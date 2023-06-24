@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Library Test</title>
+</head>
+<body>
+  <div id="root">
+    
+  </div>
+
+  <script type="module">
+    import { navigate } from './core/router.js';
+    import { renderHomePage } from './view/home.js';
+
+    navigate('/home');
+    renderHomePage();
+  </script>
+</body>
+</html>
